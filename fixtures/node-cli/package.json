@@ -1,0 +1,19 @@
+{
+  "name": "fixture-node-cli",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A small TypeScript command line tool: commander, chalk, ora and prompts, bundled with tsup.",
+  "dependencies": {
+    "@inquirer/prompts": "^8",
+    "chalk": "^6",
+    "commander": "^15",
+    "ora": "^9"
+  },
+  "devDependencies": {
+    "@types/node": "^26",
+    "prettier": "^3",
+    "tsup": "^8",
+    "typescript": "^7",
+    "vitest": "^5"
+  }
+}
